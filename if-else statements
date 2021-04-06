@@ -1,0 +1,28 @@
+//Author Ekta Rani aka hackingwave
+
+
+#include<iostream>
+using namespace std;
+int main ()
+{
+ //just the second day of coding trial.
+ //if else statement 
+ int age;
+ cout<<"enter your age";
+ cin>>age;
+ if (age>18)
+ {
+     cout<<"you can dance";
+ }
+    
+ else 
+ {
+     cout << "jo karna hai karo";
+ }
+    
+    
+    
+    
+    
+    return 0;
+}
