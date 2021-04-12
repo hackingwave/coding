@@ -1,0 +1,23 @@
+#include<iostream>
+#include <iomanip>
+using namespace std;
+int main(){
+    long a;
+    cin>>a;
+    long long b;
+    cin>>b;
+    char c;
+    cin>>c;
+     double d;
+    cin>>d;
+    
+    long double e;
+    cin>>e;
+    cout<<a<<endl;
+    cout<<b<<endl;
+    cout<<c<<endl;
+    cout<<setprecision(4)<<d<<endl;
+    cout<<setprecision(10)<<e<<endl;
+    
+    return 0;
+}
