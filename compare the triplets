@@ -1,0 +1,37 @@
+#include<iostream>
+using namespace std;
+int main(){
+       int i,k,t;
+        int array_a[3];
+        int array_b[3];
+        for(  i=0; i<3; i++)
+        {
+               cin>>array_a[i];
+               
+        }
+        for(  k=0; k<3; k++)
+        {
+               cin>>array_b[k];
+               
+        }
+        
+        int a=0,b=0;
+       for(  t=0; t<3; t++)
+       {
+               
+       if ( array_a[t]>array_b[t])
+      ++a;
+       
+       else if (array_a[t]<array_b[t])
+       ++b;
+       
+       
+       
+       }
+       if(a!=0);
+       cout<<a<<" ";
+       if(b!=0);
+       cout<<b;
+       
+       return 0;
+}
