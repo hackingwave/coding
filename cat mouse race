@@ -1,0 +1,36 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+       int q,a,b,c;
+       cin>>q;
+       
+       for(int i=1;i<=q;i++)
+       {
+       cin>>a;
+       cin>>b;
+       cin>>c;
+       
+     
+       int d,e ;
+       d=abs(a-c);
+       e=abs(b-c);
+    
+        if( d>e)
+        {
+            cout<<"Cat B"<<endl;
+        }
+        
+            else if (d<e)
+            {
+                    cout<<"Cat A"<<endl;
+            
+            }  
+            else 
+            {
+                    cout<<"Mouse c"<<endl;
+            }
+            
+     }   
+        return 0;
+}
