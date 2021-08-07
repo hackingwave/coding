@@ -1,0 +1,52 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+     int array[5];
+     for( int i=0;i<5;i++)
+     {
+             cin>>array[i];
+     }
+        
+     int  sum=0;
+     for(int i=0;i<5;i++)
+     {
+             
+             sum=sum+array[i];
+     }
+        
+       //cout<<sum; 
+       
+       int max;
+       max=array[0];
+       
+       for(int i=0;i<5;i++)
+       {
+             if(max<array[i])
+             max=array[i];
+               
+       }
+        
+        //cout<<max;
+        
+        
+        int min;
+       min=array[0];
+       
+       for(int i=0;i<5;i++)
+       {
+             if(min>array[i])
+             min=array[i];
+               
+       }
+       
+      // cout<<min;
+      cout<<sum-max<<" "<<sum-min;
+      
+        
+        return 0;
+}
+
+
+
+
