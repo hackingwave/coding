@@ -1,0 +1,43 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+        int n;
+        cin>>n;
+        int k;
+        cin>>k;
+        int bill[n];
+        for(int i=0;i<n;i++)
+        {
+                cin>>bill[i];
+        }
+        
+        int amount ;
+        cin>>amount;
+        
+       int sum=0;
+       for(int i=0;i<n;i++)
+        {
+                sum=sum+bill[i];
+        }
+        int r;
+        r=sum-bill[k];
+        int s;
+        s=r/2;
+        
+       if(s==amount)
+        {
+                cout<<"Bon Appetit"<<endl;
+        }
+        
+        else
+        {
+                cout<<amount-s;
+        }
+        
+        
+        
+        
+        
+        return 0;
+}
